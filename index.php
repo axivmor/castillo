@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- ucfirst convierte la primera letra en mayusculas de una cadena -->
-    Hola Steeven Hernandez <?php echo ucfirst($_SESSION['nombre']); ?>
+    Hola Tere, soy Steeven <?php echo ucfirst($_SESSION['nombre']); ?>
     <a href="../../controller/cerrarSesion.php">
       <button type="button" name="button">Cerrar sesion</button>
     </a>
